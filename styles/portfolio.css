@@ -6,6 +6,13 @@
 
 
 /* Header and Navigation Styles */
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -58,11 +65,13 @@ nav ul li {
 .banner-subtitle {
     font-weight: 600;
     font-size: 45px;
+    margin-bottom: 20px;
 }
 
 .banner-text {
     font-weight: 400;
     font-size: 18px;
+    margin-bottom: 30px;
     line-height: 30px;
     color: #757575;
 }
