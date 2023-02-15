@@ -85,10 +85,14 @@ main {
 /* About Section Styles */
 
 .about {
-    margin-top: 130px;
+    /* margin-top: 130px; */
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
+}
+
+section {
+    margin-top: 130px;
 }
 
 .section-title {
@@ -122,9 +126,9 @@ main {
 
 
 /* What I do styles */
-.what-i-do {
+/* .what-i-do {
     margin-top: 130px;
-}
+} */
 
 .skill-container {
     margin-top: 80px;
@@ -151,3 +155,6 @@ main {
     color: #757575;
     line-height: 28px;
 }
+
+
+/* Resume Styles */
